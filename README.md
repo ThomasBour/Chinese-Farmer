@@ -13,7 +13,9 @@ The goal of this exercice is to learn css & html basics through several challeng
 Html and CSS
 # Preview 
 ![test image](https://i.imgur.com/B3Ky9rF.png)
-*Such a beautifull site..*
+*Such a beautiful site..*
+<br>
+![test image](https://i.imgur.com/V3HQBTB.png)
 
 # Original instruction page
 [Click here](https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement)

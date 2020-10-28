@@ -1,0 +1,141 @@
+p {
+    font-family: serif;
+    color: darkviolet;
+    padding-left: 2%;
+}
+
+a {
+    color: steelblue;
+}
+
+body {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: springgreen;
+    background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    /*background-image: url()
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;*/
+}
+
+ul {
+    color: darkviolet;
+    font-family: serif;
+    padding-left: 2%;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+blockquote {
+    width: 60%;
+    margin-left: 250px;
+    font-size: 160%;
+    background-color: lightgray;
+    border: 3px solid firebrick;
+    padding: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+}
+
+.citation {
+    font-style: italic;
+}
+
+.farmer {
+    border-left-color: forestgreen;
+}
+
+header:first-child {
+    background-color: yellow;
+}
+
+.bad {
+    color: red;
+    text-transform: capitalize;
+}
+
+.good {
+    color: green;
+    text-transform: capitalize;
+}
+
+.pair {
+    background-color: grey;
+}
+
+.impair {
+    background-color: white;
+}
+
+ul {
+    display: inline-block;
+    flex-direction: column-reverse;
+}
+
+ul li {
+    margin: 15px auto;
+    padding-right: 25px;
+}
+
+ul li:nth-child(1) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/bien.png?token=ARNZL3J47CAJZCYGA2MT2ZS7UE5NK);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 265px;
+}
+
+ul li:nth-child(2) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/mal.png?token=ARNZL3MPYRS3GL3SNZGOML27UFGW2);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 250px;
+}
+
+ul li:nth-child(3) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/chat.png?token=ARNZL3L363I6GKO6WHJVBTC7UFHAM);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 250px;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+section {
+    display: flexbox;
+}
+
+.notification {
+    background-color: #000;
+    position: absolute;
+    color: #fff;
+    padding: 15px 15px 15px 30px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    vertical-align: middle;
+    box-shadow: 4px 4px 4px #000;
+    -webkit-box-shadow: 4px 4px 4px #000;
+    -moz-box-shadow: 4px 4px 4px #000;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
